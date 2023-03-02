@@ -5,7 +5,7 @@
     type Age = number;
     type Name = string;
     type Player = {
-        name : Name,
+        readonly name : Name,
         age? : Age
     }
 
@@ -25,5 +25,20 @@
     const playerMaker1 = (name:string) : Player => ({name})
     const nico = playerMaker("nuco")
     nico.age=12
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 export {}
